@@ -18,7 +18,7 @@ namespace Demo.API.Test
     /// </summary>
     [TestClass]
     public class DemoControllerTest
-    {
+    { 
         [TestMethod]
         public void Call_Get_Method()
         {     
