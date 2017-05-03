@@ -48,7 +48,7 @@ namespace Demo.API.Test
             democontroller.Configuration = new HttpConfiguration();
 
             // Act
-            HttpResponseMessage value = democontroller.Get();
+            HttpResponseMessage value = democontroller.Get(); 
             //Assert
             Assert.IsNotNull(value);
             Assert.IsNotNull(value.Content);
